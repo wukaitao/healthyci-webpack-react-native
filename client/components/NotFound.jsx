@@ -15,7 +15,7 @@ const NotFound = React.createClass({
 			});
 			if(!self.state.second){
 				clearInterval(timer);
-				hashHistory.push('/policymanage');
+				hashHistory.push('/myhealthy');
 			};
 		},1000);
 	},
@@ -32,11 +32,11 @@ const NotFound = React.createClass({
 					</div>
 					<div className="content">
 						<span className="second">{this.state.second}</span>
-						秒后将会跳转到保单管理首页
+						秒后将会跳转到健康管理首页
 					</div>
 					<div className="btn-area">
 						<button className="btn" onClick={this.backHandler}>返回</button>
-						<Link to="/policymanage" className="btn btn-primary">保单管理</Link>
+						<Link to="/myhealthy" className="btn btn-primary">健康管理</Link>
 					</div>
 				</div>
 			</section>
