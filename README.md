@@ -1,5 +1,5 @@
-# policy-webpack-react
-react开发webpack打包的cms系统
+# healthyci-webpack-react-native
+react-native开发webpack打包的healthy app
 ----------
 * 以下为项目框架/打包注解
     * babel:转换ES6为浏览器支持的ES5
@@ -13,6 +13,7 @@ react开发webpack打包的cms系统
     * opn:浏览器打开地址
     
     * react:mvvn框架
+    * react-native:react开发原生app插件
     * react-router:react路由
     * react-dom:react渲染
     * redux:redux数据仓库
